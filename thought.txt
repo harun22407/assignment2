@@ -1,0 +1,26 @@
+First create the home page. In home page add the menu option, contact us option and About option. Add the restaurants image as a background image.
+
+Clicking on the options, it should redirect to the respective pages.
+
+
+Our menu page:- 
+   1- First add the navbar so that if user want to go to the other page then he can go there just by Clicking on that option.
+   2- Now make the breakfast section and add the breaskfast items in the breakfast container.
+   3- Now add the hover option so that when user hover on the items then the image of the items and name is highlighted.
+   3- Now make same for lunch and dinner also.
+
+
+
+In About page, add the history of the restaurants and image side by side. And also add the hover option so that it should get highlighted when hovering on the content.
+Do same for our staff and mission section.
+
+
+In contact us page:
+   1- Use the form tag.
+   2- Add option for name, the input type should be text. Add minimum 5 character.
+   3- Add option for email, the input type should be email.
+   4- Add the option for mobile number, the input type should be tel.
+   5- Add the message section. The input type should be textarea.
+   6- Use the placeholder property so that user know what should be written in that field.
+   7- After the form submitted by the user, add the confirmation page.
+

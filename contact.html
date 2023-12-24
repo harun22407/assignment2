@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+    <header>
+        <div class="navbar">
+            <div class="options">
+                <a href="./index.html" class="anchor-tag home">Home</a>
+            </div>
+            <div class="options">
+                <a href="./menu.html" class="anchor-tag menu">Our Menu</a>
+            </div>
+            <div class="options">
+                <a href="./about.html" class="anchor-tag about">About Us</a>
+            </div>
+            <div class="options">
+                <a href="./contact.html" class="anchor-tag contact">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+
+
+    <!-- Main part of form start -->
+    <div class="form-background">
+        <form action="./submit.html">
+            <!-- Name box -->
+            <input type="text" minlength="5" name="name" class="name input-box" autocomplete="off" placeholder="Name"
+                required>
+            <br>
+
+            <!-- Email box -->
+            <input type="email" name="email" class="input-box" placeholder="Email" required>
+            <br>
+
+            <!-- Mobile number box -->
+            <span>
+                <input type="tel" name="country code" class="country-code" value="+91" disabled>
+                <input type="tel" pattern="[0-9]{10}" name="mobile number" class="mobile-number" required
+                    autocomplete="off" placeholder="Mobile Number"></span>
+            <br>
+            <br>
+            <!-- Message box -->
+            <textarea name="message" cols="30" rows="10" class="message input-box" placeholder="Message"
+                autocomplete="off" required></textarea>
+            <br>
+            <button class="submit">Submit
+            </button>
+        </form>
+    </div>
+    <!-- Main part of form end -->
+
+
+</body>
+
+</html>

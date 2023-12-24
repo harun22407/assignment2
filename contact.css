@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Width of navbar should be 100% */
+.navbar {
+    display: flex;
+    background-color: black;
+    color: red;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+/* Use display flex property */
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.anchor-tag {
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    color: aqua;
+}
+
+
+
+.form-background {
+    background-color: rgb(164, 223, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.input-box {
+    width: 100%;
+    height: 5vh;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country-code {
+    width: 20%;
+    height: 5vh;
+    padding-left: 10px;
+    background-color: rgb(139, 222, 179);
+    color: black;
+}
+
+.mobile-number {
+    width: 78.81%;
+    height: 5vh;
+    padding-left: 10px;
+}
+
+.message {
+    padding-top: 5px;
+    height: auto;
+}
+
+.submit {
+    width: 100%;
+    height: 5vh;
+    font-weight: bold;
+    background-color: rgb(1, 242, 255);
+}

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: red;
+    width: 100%;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.anchor-tag {
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    color: aqua;
+}
+
+
+/* use display flex property  and flex direction should be column*/
+.form-background {
+    background-color: rgb(164, 223, 159);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.go-home {
+    width: 100px;
+    height: 5vh;
+    font-weight: bold;
+    background-color: rgb(1, 242, 255);
+    margin-top: 60px;
+}

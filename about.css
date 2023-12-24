@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: red;
+    width: 100%;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.anchor-tag {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    color: aqua;
+}
+
+
+
+.main-background {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(175deg, rgb(9, 36, 36), rgb(40, 23, 62), rgb(12, 74, 52));
+    position: absolute;
+}
+
+.about-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background: linear-gradient(90deg, rgb(157, 202, 157), rgb(160, 160, 130));
+}
+
+.our-history {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    place-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.our-history-content {
+    color: rgb(228, 157, 157);
+    text-align: justify;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    transition: all 1s;
+}
+
+.our-history-heading {
+    color: rgb(157, 236, 147);
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+
+.our-staff {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    place-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.our-staff-content {
+    color: rgb(228, 157, 157);
+    text-align: justify;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    transition: all 1s;
+}
+
+.our-staff-heading {
+    color: rgb(157, 236, 147);
+    font-style: italic;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.our-history-image,
+.our-staff-image {
+    transition: all 0.5s;
+}
+
+
+/* To zoom in while hovering on images and headings, use scale property */
+.our-history-image:hover,
+.our-staff-image:hover {
+    scale: 1.1;
+    transition-timing-function: ease-in-out;
+}
+
+.our-staff-content:hover,
+.our-history-content:hover {
+    scale: 1.1;
+    transition-timing-function: ease-in-out;
+}
